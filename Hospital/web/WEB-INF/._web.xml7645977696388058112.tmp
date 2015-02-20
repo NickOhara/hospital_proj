@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>StaffServlet</servlet-name>
+        <servlet-class>hospitalPackage.StaffServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditPatientServlet</servlet-name>
+        <servlet-class>hospitalPackage.EditPatientServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddDoctorServlet</servlet-name>
+        <servlet-class>hospitalPackage.AddDoctorServlet</servlet-class>
+    </servlet>
+<<<<<<< HEAD
+    <servlet>
+        <servlet-name>AppointmentServlet</servlet-name>
+        <servlet-class>hospitalPackage.AddAppointmentServlet</servlet-class>
+    </servlet>
+=======
+    <!--
+>>>>>>> ae4ab9d78165c882e40efa1d8f63dbec21cbe552
+    <servlet-mapping>
+        <servlet-name>StaffServlet</servlet-name>
+        <url-pattern>/StaffServlet</url-pattern>
+    </servlet-mapping>
+    -->
+    <servlet-mapping>
+        <servlet-name>AddDoctorServlet</servlet-name>
+        <url-pattern>/AddDoctorServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AppointmentServlet</servlet-name>
+        <url-pattern>/AppointmentServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,18 @@
+/*******************************/
+/******CREATE LOCAL DB**********/
+/******************************/
+
+load the database: ece356.sql
+cmd> mysql -uroot hospital < C:\Users\GSP\Documents\NetBeansProjects\hospital\ece356.sql
+
+populate the database: i.e. prescription table
+mysql> load data infile "prescription.csv" into table prescription fields terminated by ',' lines terminated by '\n';
+
+-create database 'hospital'
+
+-run these lines
+
+USE hospital
+source <path to .sql file>
+
+-done

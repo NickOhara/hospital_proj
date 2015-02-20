@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2014, 7:33:16 PM
+    Author     : mikededys
+*/
+.doctor-wrapper {
+    width:1000px;
+    margin: 40px auto;
+}
+#search-modal-body {
+    text-align:left;
+}
+#add-pat,#add-appointment, #add-doc {
+    margin: 60px auto;
+    width: 700px;
+    height: 1000px;
+    outline: 1px solid #DDD;
+    padding-top:10px;
+    
+}
+
+#add-pat-bc,#add-doc-bc {
+    margin-left: 10px;
+    width:200px;
+}
+ #add-appointment-bc {
+    margin-left: 10px;
+    width:300px;
+}
+#add-pat-form, #add-appointment-form, #add-doc-form {
+    padding: 10px;
+    text-align: left;
+}
+
+#appt-detail, #patient-detail, #appointments-list {
+    margin: 60px auto;
+    width: 700px;
+    height: 1000px;
+    outline: 1px solid #DDD;
+}
+
+#appt-detail-bc, #patient-detail-bc,#appointments-list-bc {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+#doc-patients-group {
+    margin-top:10px;
+    text-align:left;
+    display:table;
+    width:100%;
+}
+
+#doc-patients-group > div{
+   vertical-align:top;
+   display:table-cell;
+}
+
+#staff-patients-group {
+    margin-bottom:10px;
+    text-align:left;
+    display:table;
+    width:100%;
+}
+
+#staff-patients-group > div{
+   vertical-align:top;
+   display:table-cell;
+}
+#filter-patient-btn {
+    display:inlne;
+    width:600px;
+}
+
+#doc-patient-search-input {
+    width:170px;
+}
+#doc-pat-search-group {
+    padding-left:25px;
+    width:250px;
+}
+#staff-patient-search-input {
+    width:170px;
+}
+
+#pat-search-group {
+    padding-left:13px;
+    width:302px;
+}
+.link {
+    margin: 0;
+    border: 0;
+    background: none;
+    overflow: visible;
+    color: #428BCA;
+    cursor: pointer;
+}
+
